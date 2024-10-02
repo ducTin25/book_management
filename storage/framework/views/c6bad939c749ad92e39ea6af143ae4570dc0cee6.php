@@ -1,0 +1,56 @@
+
+
+<?php $__env->startSection('content'); ?>
+<h3>SÁCH MỚI CẬP NHẬT</h3>
+    <div class="album py-5 bg-light">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      	<?php
+      	  $count = count($truyen);
+      	?> 
+      	<?php if($count == 0): ?>
+      	<p>Truyện đang cập nhật</p>
+      	<?php else: ?>
+
+
+        <?php $__currentLoopData = $truyen; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $key => $value): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+        <div class="col-md-3">
+          <div class="card shadow-sm">
+          	<!-- <a href=""> -->
+            <img class="card-img-top" src="<?php echo e(asset('public/uploads/truyen/'.$value->hinhanh)); ?>">
+
+            <div class="card-body">
+                <h5><?php echo e($value->tentruyen); ?></h5>
+              <p class="card-text"><?php echo e($value->tomtat); ?></p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <a href="<?php echo e(url('xem-truyen/'.$value->slug_truyen)); ?>" class="btn btn-sm btn-outline-secondary">Đọc ngay</a>
+                  <a  class="btn btn-sm btn-outline-secondary"><i class="fa-solid fa-eye"></i>10111</a>
+                </div>
+                <small class="text-muted">9 mins ago</small>
+              </div>
+            </div>
+            <!-- </a> -->
+          </div>
+        </div>
+        
+        
+              
+        
+
+        
+        
+        
+
+        
+        
+      <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+      <?php endif; ?>
+      </div>
+              <a class="btn btn-success" href="" >Xem tất cả</a>
+
+    </div>
+    
+</div>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('../layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH E:\New folder\htdocs\laravel8\laravel_sachtruyen\resources\views/pages/danhmuc.blade.php ENDPATH**/ ?>
