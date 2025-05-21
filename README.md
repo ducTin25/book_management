@@ -9,9 +9,13 @@ giải pháp hiệu quả, giúp cải thiện quy trình lưu trữ, tìm kiế
 cách chính xác và nhanh chóng. 
 
 2) Mô tả đề tài 
+
 --Quản lí một thư viện sách ở Hà Nội 
+
 --DBMS: postgresql 
+
 --Back end: php 
+
 --Frontend: java script, html 
 *** 
 Xét các yêu cầu cho một cơ sở dữ liệu dùng để quản lí thư viện sách: 
