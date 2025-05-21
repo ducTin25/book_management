@@ -7,6 +7,7 @@ lý hiệu quả các nguồn tài nguyên này đóng vai trò quan trọng tro
 lượng dịch vụ thư viện. Để đáp ứng nhu cầu này, việc xây dựng một hệ thống quản lý sách là 
 giải pháp hiệu quả, giúp cải thiện quy trình lưu trữ, tìm kiếm và quản lý thông tin sách một 
 cách chính xác và nhanh chóng. 
+
 2) Mô tả đề tài 
 --Quản lí một thư viện sách ở Hà Nội 
 --DBMS: postgresql 
