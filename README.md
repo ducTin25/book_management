@@ -1,5 +1,5 @@
 1) Lời mở đầu 
-Trong thời đại công nghệ thông tin phát triển mạnh mẽ, việc ứng dụng công nghệ vào 
+--Trong thời đại công nghệ thông tin phát triển mạnh mẽ, việc ứng dụng công nghệ vào 
 quản lý và vận hành các hệ thống thư viện trở nên vô cùng cần thiết và cấp bách. Thư viện 
 là nơi lưu trữ và cung cấp nguồn tài nguyên tri thức vô giá cho cộng đồng, do đó, việc quản 
 lý hiệu quả các nguồn tài nguyên này đóng vai trò quan trọng trong việc nâng cao chất 
@@ -7,10 +7,10 @@ lượng dịch vụ thư viện. Để đáp ứng nhu cầu này, việc xây 
 giải pháp hiệu quả, giúp cải thiện quy trình lưu trữ, tìm kiếm và quản lý thông tin sách một 
 cách chính xác và nhanh chóng. 
 2) Mô tả đề tài 
-Quản lí một thư viện sách ở Hà Nội 
-DBMS: postgresql 
-Back end: php 
-Frontend: java script, html 
+--Quản lí một thư viện sách ở Hà Nội 
+--DBMS: postgresql 
+--Back end: php 
+--Frontend: java script, html 
 *** 
 Xét các yêu cầu cho một cơ sở dữ liệu dùng để quản lí thư viện sách: 
 • Mỗi quyển sách có tên sách,mã định danh quốc tế cho sách, năm xuất bản, số 
